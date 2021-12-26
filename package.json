@@ -1,7 +1,9 @@
 {
   "name": "hotel-booking",
   "version": "0.0.0",
-  "scripts": {},
+  "scripts": {
+    "emulators:start": "firebase emulators:start"
+  },
   "private": true,
   "devDependencies": {
     "firebase-tools": "^10.0.1"
