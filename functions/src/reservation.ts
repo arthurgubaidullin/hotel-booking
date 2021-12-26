@@ -101,4 +101,5 @@ async function addRoomReservationInFirestore({
     });
   return reservationId;
 }
+
 class RoomAlreadyReservedError extends Error {}
